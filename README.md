@@ -24,7 +24,7 @@ line, savingsAccount
 MAX_ITERATIONS, COLOR_RED, PI
 '''
  In general, the use of such constants should be minimized. In many cases implementing the value as a method is a better choice:
- '''
+'''
 int getMaxIterations() // NOT: MAX_ITERATIONS = 25
 {
   return 25;
