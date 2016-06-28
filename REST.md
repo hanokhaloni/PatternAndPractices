@@ -173,3 +173,8 @@ Use the custom HTTP Header X-HTTP-Method-Override to overrider the POST Method.
 Links
 http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/
 https://developer.mozilla.org/en/docs/Web/HTTP/Response_codes
+http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+
+tools
+https://stripe.com/docs/api/curl#authentication
+http://swagger.io/
