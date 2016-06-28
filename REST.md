@@ -114,10 +114,9 @@ The HTTP standard provides over 70 status codes to describe the return values. W
 
 500 – Internal Server Error – API developers should avoid this error. If an error occurs in the global catch blog, the stracktrace should be logged and not returned as response.
 
-Use error payloads
+## Use error payloads
 
 All exceptions should be mapped in an error payload. Here is an example how a JSON payload should look like.
-
 ```
 {
   "errors": [
