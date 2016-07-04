@@ -1,11 +1,12 @@
 # Commit workflow
-1 Developer + Team leader -> Plan the task
-2 Developer -> code the task
-3 Developer -> Checks the task
-4 Developer + Team leader -> Code review
-4.1 Team leader -> If anomaly is found - mark the associated task with PostMortem flag.
-4.2 Developer -> If code review requires fixes - developer should return to step 2
-5 Developer -> commit the task (make sure that the team leader acknoledges the change!).
+1. Developer + Team leader -> Plan the task
+2. Developer -> code the task
+3. Developer -> Checks the task
+4. Developer + Team leader -> Code review
+4.1. Team leader -> If anomaly is found - mark the associated task with PostMortem flag.
+4.2. Developer -> If code review requires fixes - developer should return to step 2
+5. Developer -> commit the task (make sure that the team leader acknoledges the change!).
+
 
 # Do commit early and often
 Commit every line you change if you can :) 
@@ -31,6 +32,7 @@ Your working copy's directories and files can be at different "working" revision
 2.1. You cannot commit the deletion of a file or directory which doesn't have a working revision of HEAD.
 2.2. You cannot commit a property change to a directory which doesn't have a working revision of HEAD.
 3. svn update will bring your entire working copy to one working revision, and is the typical solution to the problems mentioned in point #2.
+
 
 # Use default project root
 A "project root" contains exactly three subdirectories: /trunk, /branches, and /tags. A repository may contain only one project root, or it may contain a number of them.
