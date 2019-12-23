@@ -1,8 +1,8 @@
 # Epic checklist
-TODO
+TODO: add epic mapping checkilist
 
 # Story checklist
-TODO
+TODO: add story mapping checklist
 
 # TASK checklist
 - task definition and success criteria
