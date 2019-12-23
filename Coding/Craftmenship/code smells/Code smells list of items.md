@@ -1,18 +1,4 @@
-- What is a code smell?
-
-- Why should we talk about code smells?
-watch for warning signs in your own code
-
-
-- Long method X2
-
-- Long parameter list
-- Switch statement
-- Primitive Obsession
-
-
-
-- list of all code smells
+# list of all code smells
 Comments
 Long Method
 Long Parameter List
