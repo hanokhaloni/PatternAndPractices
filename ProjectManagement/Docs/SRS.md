@@ -29,3 +29,97 @@ Do the requirements avoid specifying design?
 Are the requirements at a fairly consistent level of detail? should any requirement be specified in more detail? Should any requirement be specified in less detail?
 Are the requirements clear enough to be turned over to an independent group for implementation and still be understood?
 Is each requirement testable? Will it be possible for independent testing to determine whether each requirement has been satisfied?
+
+## List of nun-functional requirements and -ilities
+Performance – for example Response Time, Throughput, Utilization, Static Volumetric
+Scalability
+Capacity
+Availability
+Reliability
+Recoverability
+Maintainability
+Serviceability
+Security
+Regulatory
+Manageability
+Environmental
+Data Integrity
+Usability
+Interoperability
+
+
+Accessibility
+Adaptability
+Auditability and control
+Availability (see service level agreement)
+Backup
+Capacity, current and forecast
+Certification
+Compliance
+Configuration management
+Cost, initial and Life-cycle cost
+Data integrity
+Data retention
+Dependency on other parties
+Deployment
+Development environment
+Disaster recovery
+Documentation
+Durability
+Efficiency (resource consumption for given load)
+Effectiveness (resulting performance in relation to effort)
+Emotional factors (like fun or absorbing or has "Wow! Factor")
+Environmental protection
+Escrow
+Exploitability
+Extensibility (adding features, and carry-forward of customizations at next major version upgrade)
+Failure management
+Fault tolerance (e.g. Operational System Monitoring, Measuring, and Management)
+Integrability ability to integrate components
+Internationalization and localization
+Interoperability
+Legal and licensing issues or patent-infringement-avoidability
+Maintainability (e.g. Mean Time To Repair - MTTR)
+Management
+Modifiability
+Network topology
+Open source
+Operability
+Performance / response time (performance engineering)
+Platform compatibility
+Privacy (compliance to privacy laws)
+Portability
+Quality (e.g. faults discovered, faults delivered, fault removal efficacy)
+Readability
+Reliability (e.g. Mean Time Between/To Failures - MTBF/MTTF )
+Reporting
+Resilience
+Resource constraints (processor speed, memory, disk space, network bandwidth, etc.)
+Response time
+Reusability
+Robustness
+Safety or Factor of safety
+Scalability (horizontal, vertical)
+Security (cyber and physical)
+Software, tools, standards etc. Compatibility
+Stability
+Supportability
+Testability
+Throughput
+Transparency
+Usability (Human Factors) by target user community
+Volume
+
+--------------
+## some functional :
+Business Rules
+Transaction corrections, adjustments and cancellations
+Administrative functions
+Authentication
+Authorization levels
+Audit Tracking
+External Interfaces
+Certification Requirements
+Reporting Requirements
+Historical Data
+Legal or Regulatory Requirements
