@@ -1,4 +1,5 @@
 # Internal kickoff meeting
+
 Introductions – meet your new best buds (15 mins)
 Client – what’s the background? (5 mins)
 Project – why are we doing this? (5 mins)

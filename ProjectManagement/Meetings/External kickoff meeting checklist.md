@@ -1,4 +1,5 @@
 # External kickoff meeting - 1 hour
+
 General architecture (10 min)
 Main flows (15 min)
 Tech stack (10 min)

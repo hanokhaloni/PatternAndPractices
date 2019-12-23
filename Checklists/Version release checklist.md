@@ -1,4 +1,5 @@
 # Version release checklist
+
 Pass through tasks
 Release in jira
 Create SVN TAG
@@ -6,6 +7,7 @@ Build in jenkins
 Email client, link binaries to dropbox,
 
 ## another version
+
 update version and verify in dev it's visible (either client, logs, or footers)
 Create release notes
 Deploy on test
@@ -18,4 +20,4 @@ Deploy on Prod
 Dev test on PROD(sanity) – try to make it a READ-ONLY oriented as possible
 Read LOGS
 
-* If any step fails, go back to step 1
+- If any step fails, go back to step 1

@@ -1,5 +1,7 @@
 # CDR meeting
+
 ## Project Overview
+
 Design Drivers & Alternatives Considered
 System Architectural Design
 Requirements Traceability
@@ -8,8 +10,8 @@ Enterprise Architecture Compliance
 Resource Sizing Estimates
 Risks & Mitigation Strategies
 
-
 ## Mandatory prior to CDR:
+
 Business Risk Assessment.
 Preliminary Design Review Request for Action ( ) RFA forms
 Requirements Document(s)

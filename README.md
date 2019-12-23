@@ -1,7 +1,9 @@
 # NGPractices
-Best practices and notes 
+
+Best practices and notes
 
 TODO:
+
 - [ ] Add a directory for peopleware
 - [ ] Add famous qoutes
 - [ ] Add famous laws
@@ -10,7 +12,7 @@ TODO:
 - [ ] Add a software project outline
 - [ ] Add EE template
 - [ ] Add slides templates
-- [ ] Finish project termplate, based on a  simple HTML stuff!
+- [ ] Finish project termplate, based on a simple HTML stuff!
 - [ ] Fix glossary
 - [ ] Add links to ext references
 - [ ] CI/CD/CD checklist

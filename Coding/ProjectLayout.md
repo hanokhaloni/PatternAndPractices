@@ -1,4 +1,5 @@
-# project layout	
+# project layout
+
 src dir
 docs dir
 .docker in root
@@ -9,3 +10,5 @@ howto deploy
 original ee from google sheets + all parts filled
 create schema + data scripts
 jenkins batch files for (prepare, build, test, zip-artifact)
+
+TODO: maybe this stuff should be in \ProjectTemplate ?

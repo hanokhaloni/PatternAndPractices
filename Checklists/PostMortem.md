@@ -1,16 +1,20 @@
 # Postmorted format - ready for jira:
 
 ## timeline
+
 Tell me what happened and ~when (no need to go to any time resolution, justtell what happened when?)
+
 - Detection - who detected how and what?
- time what happened
+  time what happened
 
 ## buisness impact
-- What was the actual buisness impact ot the 
+
+- What was the actual buisness impact ot the
 
 ## root cause
 
 ### why why why?
+
 - If you were the man behind the bug, What do we need to do in order to prevent such a volnurability
 
 אתה עשית את הטעות, אבל כולנו בנינו את המערכת בה הטעות הטיפשית שלך הופכת לאסון?
@@ -20,7 +24,8 @@ claim vs blame?
 לכוון את הצוות ע"י הדרך שבה אני מוביל אותו - וזה נעשה רק ע"י שאלות.
 
 ## Action items
-- Who need to do what by when? e.g. add tests, add monitoring, ignore it, document how to handle, ask for a  refactor, etc...
+
+- Who need to do what by when? e.g. add tests, add monitoring, ignore it, document how to handle, ask for a refactor, etc...
 
 1. רצף אירועים – מה קרה מתי?
 2. מי זיהה את הבעיה ואיך?

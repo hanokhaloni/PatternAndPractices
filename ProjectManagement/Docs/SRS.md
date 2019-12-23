@@ -1,8 +1,10 @@
 # SRS
+
 Have all user stories defined
 For each user story id OD describe ho is it tested
 
 ## Requirements checklist
+
 General (SRS requirements) Checklist
 Is a functional overview of the system provided?
 Have the software and hardware environments been specified?
@@ -31,6 +33,7 @@ Are the requirements clear enough to be turned over to an independent group for 
 Is each requirement testable? Will it be possible for independent testing to determine whether each requirement has been satisfied?
 
 ## List of nun-functional requirements and -ilities
+
 Performance – for example Response Time, Throughput, Utilization, Static Volumetric
 Scalability
 Capacity
@@ -46,7 +49,6 @@ Environmental
 Data Integrity
 Usability
 Interoperability
-
 
 Accessibility
 Adaptability
@@ -110,8 +112,10 @@ Transparency
 Usability (Human Factors) by target user community
 Volume
 
---------------
+---
+
 ## some functional :
+
 Business Rules
 Transaction corrections, adjustments and cancellations
 Administrative functions

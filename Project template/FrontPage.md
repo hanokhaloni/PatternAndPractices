@@ -1,11 +1,10 @@
 Add Here Title + Logo
 General
-Introduction 
-
+Introduction
 
 Technologies involved
 
-Languages used, technology standards, coding standards 
+Languages used, technology standards, coding standards
 
 Tools/Libraries involved
 
@@ -15,11 +14,10 @@ Contacts
 Svn
 Jira
 Important links
- 
 
 Status
 Current status
-design, implementing, testing etc.. 
+design, implementing, testing etc..
 
 Status history
 
@@ -36,8 +34,6 @@ per phase effort estimation.
 
 Project management
 
- 
-
 Howtos
 Installation steps
 Environment definitions
@@ -45,7 +41,7 @@ Product documentation
 guides,tools,usages,etc
 
 Versions
-SVN tags  and release notes
+SVN tags and release notes
 
 Extra
 Encountered problems

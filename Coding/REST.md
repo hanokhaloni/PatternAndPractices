@@ -1,15 +1,15 @@
-
-
 # Use nouns and methods to define behavior.
 
 For an easy understanding use this structure for every resource:
 
-| Resource | read | create | update | remove |
-| --- | --- | --- | --- | --- |
-| | GET | POST | PUT | DELETE |
-| /cars	| Returns a list of cars | Create a new car | Bulk update of cars |	Delete all cars |
+| Resource  | read                   | create                   | update                 | remove                 |
+| --------- | ---------------------- | ------------------------ | ---------------------- | ---------------------- |
+|           | GET                    | POST                     | PUT                    | DELETE                 |
+| /cars     | Returns a list of cars | Create a new car         | Bulk update of cars    | Delete all cars        |
 | /cars/711 | Returns a specific car | Method not allowed (405) | Updates a specific car | Deletes a specific car |
+
 Do not use verbs for methods:
+
 ```
 /getAllCars
 /createNewCar
@@ -18,10 +18,11 @@ Do not use verbs for methods:
 
 # GET method and query parameters should not alter the state
 
-Use PUT, POST and DELETE methods  instead of the GET method to alter the state.
+Use PUT, POST and DELETE methods instead of the GET method to alter the state.
 Do not use GET for state changes:
+
 ```
-GET /users/711?activate 
+GET /users/711?activate
 GET /users/711/activate
 ```
 
@@ -37,15 +38,12 @@ Do not mix up singular and plural nouns. Keep it simple and use only plural noun
 
 `/settings` instead of `/setting`
 
-
 # Use sub-resources for entity relations
 
 If a resource is related to another resource use subresources like so:
 
-` GET /cars/711/drivers/` Returns a list of drivers for car 711
-` GET /cars/711/drivers/4` Returns driver #4 for car 711
- 
-
+`GET /cars/711/drivers/` Returns a list of drivers for car 711
+`GET /cars/711/drivers/4` Returns driver #4 for car 711
 
 # Provide filtering, sorting, field selection and paging for collections
 
@@ -53,25 +51,25 @@ If a resource is related to another resource use subresources like so:
 
 Use a unique query parameter for all fields or a query language for filtering.
 
-` GET /cars?color=red ` Returns a list of red cars
-` GET /cars?seats<=2 ` Returns a list of cars with a maximum of 2 seats
+`GET /cars?color=red` Returns a list of red cars
+`GET /cars?seats<=2` Returns a list of cars with a maximum of 2 seats
 Sorting:
 
 ## Allow ascending and descending sorting over multiple fields.
 
-` GET /cars?sort=-manufactorer,+model ` This returns a list of cars sorted by descending manufacturers and ascending models.
+`GET /cars?sort=-manufactorer,+model` This returns a list of cars sorted by descending manufacturers and ascending models.
 
 ## Field selection
 
 Mobile clients display just a few attributes in a list. They don’t need all attributes of a resource. Give the API consumer the ability to choose returned fields. This will also reduce the network traffic and speed up the usage of the API.
 
-` GET /cars?fields=manufacturer,model,id,color `
+`GET /cars?fields=manufacturer,model,id,color`
 
 ## Paging
 
 Use limit and offset. It is flexible for the user and common in leading databases. The default should be limit=20 and offset=0
 
-` GET /cars?offset=10&limit=5 `
+`GET /cars?offset=10&limit=5`
 To send the total entries back to the user use the custom HTTP header: X-Total-Count.
 
 Links to the next or previous page should be provided in the HTTP header link as well. It is important to follow this link header values instead of constructing your own URLs.
@@ -80,7 +78,6 @@ Link: <https://blog.mwaysolutions.com/sample/api/v1/cars?offset=15&limit=5>; rel
 <https://blog.mwaysolutions.com/sample/api/v1/cars?offset=50&limit=3>; rel="last",
 <https://blog.mwaysolutions.com/sample/api/v1/cars?offset=0&limit=5>; rel="first",
 <https://blog.mwaysolutions.com/sample/api/v1/cars?offset=5&limit=5>; rel="prev",
- 
 
 # Version your API
 
@@ -89,16 +86,14 @@ Make the API Version mandatory and do not release an unversioned API. Use a simp
 We are using the url for the API versioning starting with the letter „v“
 
 `/blog/api/v1`
- 
 
 # Handle Errors with HTTP status codes
 
 It is hard to work with an API that ignores error handling. Pure returning of a HTTP 500 with a stacktrace is not very helpful.
 
- 
 # Use HTTP status codes
 
-The HTTP standard provides over 70 status codes to describe the return values. We don’t need them all, but  there should be used at least a mount of 10.
+The HTTP standard provides over 70 status codes to describe the return values. We don’t need them all, but there should be used at least a mount of 10.
 
 200 – OK – Eyerything is working
 201 – OK – New resource has been created
@@ -117,6 +112,7 @@ The HTTP standard provides over 70 status codes to describe the return values. W
 ## Use error payloads
 
 All exceptions should be mapped in an error payload. Here is an example how a JSON payload should look like.
+
 ```
 {
   "errors": [
@@ -127,7 +123,7 @@ All exceptions should be mapped in an error payload. Here is an example how a JS
     "more info": "http://dev.mwaysolutions.com/blog/api/v1/errors/12345"
    }
   ]
-} 
+}
 ```
 
 # Use HTTP headers for serialization formats
@@ -137,11 +133,10 @@ Both, client and server, need to know which format is used for the communication
 Content-Type defines the request format.
 Accept defines a list of acceptable response formats.
 
- 
-
 # Use HATEOAS (TBD)
 
 Hypermedia as the Engine of Application State is a principle that hypertext links should be used to create a better navigation through the API.
+
 ```
 {
   "id": 711,
@@ -162,7 +157,6 @@ Hypermedia as the Engine of Application State is a principle that hypertext link
  ]
 }
 ```
-
 
 # Allow overriding HTTP method (TBD)
 

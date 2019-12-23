@@ -1,4 +1,5 @@
 # SOW
+
 Introduction: Start in more general terms explaining what the project is, who is involved, who is leading the project, etc.
 Background: Include a little background on your project. Explain a little about the organization and their needs.
 Purpose: Explain the why of the project, beginning with a purpose statement and then answering questions such as: what are the deliverables, objectives, ROI, etc.?
