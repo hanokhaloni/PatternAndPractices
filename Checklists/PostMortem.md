@@ -20,7 +20,9 @@ Tell me what happened and ~when (no need to go to any time resolution, justtell 
 אתה עשית את הטעות, אבל כולנו בנינו את המערכת בה הטעות הטיפשית שלך הופכת לאסון?
 
 איך אתה מרגיש לגבי בדיקסרי של הבא? זה עבד טוב
+
 claim vs blame?
+
 לכוון את הצוות ע"י הדרך שבה אני מוביל אותו - וזה נעשה רק ע"י שאלות.
 
 ## Action items

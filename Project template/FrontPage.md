@@ -1,3 +1,18 @@
+
+## License
+
+The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
+license and is available for free.
+
+## Links
+
+* [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
+* [Documentation](https://aimeos.org/docs/TYPO3)
+* [Forum](https://aimeos.org/help/typo3-extension-f16/)
+* [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
+* [Source code](https://github.com/aimeos/aimeos-typo3)
+
+
 Add Here Title + Logo
 General
 Introduction
