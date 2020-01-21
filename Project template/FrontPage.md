@@ -21,6 +21,7 @@
 
 ## Screenshots
 \< Add about 3-4 descriptive screenshots here.\>
+
 ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 ## TECHNOLOGIES
@@ -33,9 +34,10 @@
 
 ### Contacts
 
-* /<Add NGSOFT team members here. Don't forget the role./>
-* /</>
-* /<Add customer members here, don't forget to add phone number, email and role./>
+* \<Add NGSOFT team members here. Don't forget the role.\>
+* **Israel Israeli**, Team Lead
+* **Israela Israeli**, Project manager
+* \<Add customer members here, don't forget to add phone number, email and role.\>
 
 ### Roadmap
 
