@@ -6,11 +6,30 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Directory structure
+
+```cmd
+.
+├─ .editorconfig
+├─ .gitignore
+├─ .travis.yml
+├─ CHANGELOG.md
+├─ LICENSE
+├─ README.md
+├─ index.js
+├─ package.json
+├─ yarn.lock
+└─ src - whole clinet android source code
+   ├─ models
+   ├─ controllers
+   └─ views list of views
+```
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
-```
+```cmd
 Give examples
 ```
 
@@ -20,13 +39,13 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```
+```cmd
 Give the example
 ```
 
 And repeat
 
-```
+```cmd
 until finished
 ```
 
@@ -82,11 +101,11 @@ Add reference to the recommended configuration files.
 * STD </Add link to docs dir or explain why it does not exist/>
 * STR </Add link to docs dir or explain why it does not exist/>
 
-</Also add links to studio outlines, or axure site./>
+</Also add links to studio outlines, or axure site.>
 
 ### Versions
 
-* /<List of tags and release notes/>
+* </List of tags and release notes/>
 
 ## Contributing
 
