@@ -1,5 +1,7 @@
 # SMDD format
 
+This format is used to define SDD outline. It shouldbe agreed upon PRIOR to starting writing a SDD/HLD document. 
+
 - Title
 - Overview
 - Context
