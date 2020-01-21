@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+\<One Paragraph of project description goes here. What are this project's main use cases? This should be not longer than 150 words.\>
 
 ## Getting Started
 
@@ -74,6 +74,19 @@ Add reference to the recommended configuration files.
 * [node](https://nodejs.org/en/) used to run node and npm
 * [gradle](https://gradle.org/) build tool
 * [msbuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2019)  a platform for building applications
+
+## Process documentation
+
+* SRS </Add link to docs dir or explain why it does not exist/>
+* SDD/HLD </Add link to docs dir or explain why it does not exist/>
+* STD </Add link to docs dir or explain why it does not exist/>
+* STR </Add link to docs dir or explain why it does not exist/>
+
+</Also add links to studio outlines, or axure site./>
+
+### Versions
+
+* /<List of tags and release notes/>
 
 ## Contributing
 

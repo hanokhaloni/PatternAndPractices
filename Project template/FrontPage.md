@@ -1,8 +1,9 @@
+# Project Title
 
-## License
+## Billing info
 
-The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
-license and is available for free.
+* Isufit customer \<name and number\>
+* Isufit project \<name and number\>
 
 ## Links
 
@@ -12,52 +13,43 @@ license and is available for free.
 * [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
 * [Source code](https://github.com/aimeos/aimeos-typo3)
 
+## INTRODUCTION
 
-Add Here Title + Logo
-General
-Introduction
+### OVERVIEW
 
-Technologies involved
+\<One Paragraph of project description goes here. What are this project's main use cases? This should be not longer than 150 words.\>
 
-Languages used, technology standards, coding standards
+## Screenshots
+\< Add about 3-4 descriptive screenshots here.\>
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
-Tools/Libraries involved
+## TECHNOLOGIES
 
-Management
+* \<List you technologies here!\>
+* \<Also add Languages used, technology standards\>
+* \<Don't forget to add Tools/Libraries involved - and links to current active sites!\>
 
-Contacts
-Svn
-Jira
-Important links
+## Management
 
-Status
-Current status
-design, implementing, testing etc..
+### Contacts
 
-Status history
+* /<Add NGSOFT team members here. Don't forget the role./>
+* /</>
+* /<Add customer members here, don't forget to add phone number, email and role./>
 
-Process documentation
-SRS
+### Roadmap
 
-SDD/HLD
+### Important documents
 
-ATP
+* /<Add a link to EE1 or EE2/>
+* /<Add a link to initial evaluation/>
+* /<Add a link to kickoff meeting/>
+* /<Add a lik to KT, lists or even major breakthrous or even Retrospective notes/>
+* /<Add reference to local slides - postmorted of the project>
 
-Effort Estimation
+## Important links
 
-per phase effort estimation.
+## Encountered problems
 
-Project management
-
-Howtos
-Installation steps
-Environment definitions
-Product documentation
-guides,tools,usages,etc
-
-Versions
-SVN tags and release notes
-
-Extra
-Encountered problems
-User stories, behaviors, and strange bugs.
+* /<List problems and solutions here and link to respective JIRA ticket/>
+* /<User stories, behaviors, and strange bugs  should be listed here as well/>
