@@ -19,10 +19,17 @@ These instructions will get you a copy of the project up and running on your loc
 ├─ index.js
 ├─ package.json
 ├─ yarn.lock
-└─ src - whole clinet android source code
-   ├─ models
-   ├─ controllers
-   └─ views list of views
+|─ Client
+|  └─ src - whole clinet android source code
+|     ├─ models - list of models used
+|     ├─ controllers - list of controllers used
+|     └─ views - list of views
+└─ Server
+   └─ src - WEBAPI .net core 5.3 server 
+      ├─ models - list of models used
+      ├─ controllers - list of controllers used
+      └─ views - list of views
+
 ```
 
 ### Prerequisites
@@ -96,10 +103,11 @@ Add reference to the recommended configuration files.
 
 ## Process documentation
 
-* SRS </Add link to docs dir or explain why it does not exist/>
-* SDD/HLD </Add link to docs dir or explain why it does not exist/>
+* SRS </Add Software requirements link to docs dir or explain why it does not exist/>
+* SDD/HLD </Add Doftware disighn document or equivalent - link to docs dir or explain why it does not exist/>
 * STD </Add link to docs dir or explain why it does not exist/>
 * STR </Add link to docs dir or explain why it does not exist/>
+* ADR </Add link to docs/adr dir or explain why it does not exist/>
 
 </Also add links to studio outlines, or axure site.>
 
@@ -113,11 +121,16 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+## Best practices
+
+* \<List all best practices used here.\>
 
 ## Authors
 
 * **Hanokh Aloni** - *Initial work*
+* **Itty Todder** - *Most of the thinking and code review*
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

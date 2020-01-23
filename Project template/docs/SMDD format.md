@@ -1,6 +1,6 @@
 # SMDD format
 
-This format is used to define SDD outline. It shouldbe agreed upon PRIOR to starting writing a SDD/HLD document. 
+This format is used to define Sysem MODIFICATIONS Design Document outline. It shouldbe agreed upon PRIOR to starting writing a SDD/HLD document. 
 
 - Title
 - Overview

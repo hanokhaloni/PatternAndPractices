@@ -6,7 +6,7 @@
 
 - [ ] create jira with project name and tag.
 - [ ] create frontpage entry with same tag as in jira, with the [Frontpage.md](../Project template/Frontpage.md).
--- [ ] Commit it to SYSNGS\projects! 
+-- [ ] Commit it to SYSNGS\projects
 - [ ] create svn/git with same tag as in jira
 - [ ] create isufit with same tag as in jira
 - [ ] create jenkins ci build with same tag as in jira
@@ -30,21 +30,17 @@ TODO: maybe this stuff should be in \ProjectTemplate ?
 
 ## Development checklist
 
-Make sure the followingexist in GIT repository:
+Make sure the following exist in GIT repository:
 
 - [ ] Has a [README.md](../Project%20template/README.md).
 - [ ] Has a version number visible on the main page.
-- [ ] Has a Architecture Design Record.
-- [ ] Has SDD, and STR document.
-
+- [ ] Has a Architecture Design Record under docs\adr dir.
+- [ ] Has SDD, and STR document under docs dir.
 - [ ] Has a visible TESTING marker, so that product shows if it runs in test mode.
 - [ ] Has a visible e2e test for main scenarios (even if they do not cover client side).
 - [ ] Has a db migration up+down option.
-
 - [ ] Has a build.bat
--- [ ] Has an active linter enabled and constantly working.
-
+- [ ] Has an active linter enabled and constantly working.
 - [ ] Has a deployToCi.bat which deploys to local CI.
 - [ ] Has a deployToTestEnv.bat which deploys to test env.
 - [ ] Has a deployToProd.bat which deploys to prod.
-
