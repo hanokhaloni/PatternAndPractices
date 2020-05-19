@@ -1,4 +1,4 @@
-# Postmorted format - ready for jira:
+# Postmortem format 
 
 ## timeline
 
@@ -29,8 +29,12 @@ claim vs blame?
 
 - Who need to do what by when? e.g. add tests, add monitoring, ignore it, document how to handle, ask for a refactor, etc...
 
+# Checklist
+## Answer all the questions:
 1. רצף אירועים – מה קרה מתי?
 2. מי זיהה את הבעיה ואיך?
 3. מה האימפקט של הבעיה?
 4. מה הגורם שגרם לבעיה? מה הסיבה?
+## Add JIRA ticket + "PostMortem" label
+## tell your friends
 5. מטלות לביצוע
