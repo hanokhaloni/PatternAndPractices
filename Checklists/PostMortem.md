@@ -19,7 +19,7 @@ Tell me what happened and ~when (no need to go to any time resolution, justtell 
 
 אתה עשית את הטעות, אבל כולנו בנינו את המערכת בה הטעות הטיפשית שלך הופכת לאסון?
 
-איך אתה מרגיש לגבי בדיקסרי של הבא? זה עבד טוב
+איך אתה מרגיש לגבי הדיסקברי של הבא? זה עבד טוב
 
 claim vs blame?
 
@@ -35,6 +35,6 @@ claim vs blame?
 2. מי זיהה את הבעיה ואיך?
 3. מה האימפקט של הבעיה?
 4. מה הגורם שגרם לבעיה? מה הסיבה?
+5. מטלות לביצוע
 ## Add JIRA ticket + "PostMortem" label
 ## tell your friends
-5. מטלות לביצוע
