@@ -1,21 +1,46 @@
 # Version release checklist
+Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
+- MAJOR version - denotes project scope (whole)
+- MINOR version - denotes project milestone
+- PATCH version - denotes small changes
 
-- Pass through tasks in current release in jira
-- Create SVN/GIT TAG
-- Build in jenkins
-- Email client, link binaries to FTP / artifactory
+*Make sure that the version number is visible (either in client - text or tooltip, logs, footers or a designated "About" popup)!*
 
-## another version
-
-- update version and verify in dev it's visible (either client, logs, or footers)
-- Create release notes
+## Test-release (TESTBED / Staged / Pre-prod)
+- Mark the revision (optional Tag with "X.X.X-Staged"
 - Deploy on test
 - Dev test on TEST (sanity)
 - QA test on TEST
 - Read LOGS
 - Contact client – we changed test env – please review
 - Client test on TEST
-- Deploy on Prod
-- Dev test on PROD(sanity) – try to make it a READ-ONLY oriented as possible
-- Read LOGS
-- If any step fails, go back to step 1
+
+
+## Pre-release 
+- Update version strings with final version information
+- Create install and configuration scripts as needed
+- Update readme.md/deploy.md about how to deploy steps.
+- Remove debugging and testing code from the software
+- Remove seeded defects from the software
+- Pass through tasks in current release in jira
+- Release notesVerify version of readme.txt on "dist" dir
+- Verify lastest STR was filled and attached to docs dir
+- Verify copyright, license, and other legal materials
+- Consistency check:  SRS, User Manual, System Tests, Staged Delivery Plan, and Software must all match!
+
+## Release activity
+- Create SVN/GIT *TAG* - so that you freeze final list of files to be distributed.
+- Synchronize date/time stamp on all release files
+- Prepare a zip file with the content (and put it womehere?)
+- frontpage.md - what version was released when.
+- Build in jenkins
+  - Verify all  test/regression test are green
+- Schedule Acceptance Test date with customer (and instructor)
+
+## Release summary
+Email summary (based on this checklist)
+- Release notes
+- Attach zip or route 
+- Write "Known Issues" List.
+
+
