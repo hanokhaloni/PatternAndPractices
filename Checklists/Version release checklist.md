@@ -7,7 +7,8 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 *Make sure that the version number is visible (either in client - text or tooltip, logs, footers or a designated "About" popup)!*
 
 ## Test-release (TESTBED / Staged / Pre-prod)
-- Mark the revision (optional Tag with "X.X.X-Staged"
+- Mark the revision (optional Tag with "X.X.X-Staged")
+- Update the readme.md/deploy.md about staged delivery plan.
 - Deploy on test
 - Dev test on TEST (sanity)
 - QA test on TEST
