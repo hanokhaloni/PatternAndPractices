@@ -6,6 +6,20 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 
 *Make sure that the version number is visible (either in client - text or tooltip, logs, footers or a designated "About" popup)!*
 
+## Questions to ask yourslef before you start
+- Were the tests tunning?
+- Did they pass?
+- What version am I deploying?
+- When was the last deploy?
+- Has anyone else comitted since?
+- Is a deploy already running?
+- Are there any config changes?
+- Where are the dashboards?
+- What do I do after the deploy?
+- Is the site working now?
+- Are there any incidens in progress?
+- Is anyone testing on QA now?
+
 ## Test-release (TESTBED / Staged / Pre-prod)
 - Mark the revision (optional Tag with "X.X.X-Staged")
 - Update the readme.md/deploy.md about staged delivery plan.
