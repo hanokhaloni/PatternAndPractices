@@ -25,6 +25,7 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 - Update the readme.md/deploy.md about staged delivery plan.
 - Deploy on test
 - Dev test on TEST (sanity)
+- Reset the machine (the virtual machine) and make sure all required services are up (for distributed systems make suyre you repeat this step a couple of times)
 - QA test on TEST
 - Read LOGS
 - Contact client – we changed test env – please review
