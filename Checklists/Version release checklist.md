@@ -17,7 +17,7 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 - Where are the dashboards?
 - What do I do after the deploy?
 - Is the site working now?
-- Are there any incidens in progress?
+- Are there any incidents (i.e. blocker bugs) in progress?
 - Is anyone testing on QA now?
 
 ## Test-release (TESTBED / Staged / Pre-prod)
