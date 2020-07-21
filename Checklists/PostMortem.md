@@ -19,7 +19,7 @@ Tell me what happened and ~when (no need to go to any time resolution, justtell 
 
 אתה עשית את הטעות, אבל כולנו בנינו את המערכת בה הטעות הטיפשית שלך הופכת לאסון?
 
-איך אתה מרגיש לגבי בדיקסרי של הבא? זה עבד טוב
+איך אתה מרגיש לגבי הזיהוי של הבעיה? זה עבד טוב
 
 claim vs blame?
 
@@ -29,6 +29,7 @@ claim vs blame?
 
 - Who need to do what by when? e.g. add tests, add monitoring, ignore it, document how to handle, ask for a refactor, etc...
 
+בעברית
 1. רצף אירועים – מה קרה מתי?
 2. מי זיהה את הבעיה ואיך?
 3. מה האימפקט של הבעיה?
