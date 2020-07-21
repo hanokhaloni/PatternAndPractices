@@ -6,11 +6,11 @@ TODO:
 
 - [ ] Add a directory for peopleware
 - [ ] Add risk management stuff
-- [v] Try to order stuff, so it makes sense in a story
-- [v] Add a software project outline
+- [x] Try to order stuff, so it makes sense in a story
+- [x] Add a software project outline
 - [ ] Add EE template
 - [ ] Add slides templates
-- [v] Finish project termplate, based on a simple HTML stuff!
+- [x] Finish project termplate, based on a simple HTML stuff!
 - [ ] Fix glossary
 - [ ] Add links to ext references
 - [ ] CI/CD/CD checklist
