@@ -47,7 +47,7 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 ## Release activity
 - Create SVN/GIT *TAG* - so that you freeze final list of files to be distributed.
 - Synchronize date/time stamp on all release files
-- Prepare a zip file with the content (and put it womehere?)
+- Prepare a zip file with the content (and put it somehere?)
 - frontpage.md - what version was released when.
 - Build in jenkins
   - Verify all  test/regression test are green
