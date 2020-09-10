@@ -57,6 +57,7 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 Email summary (based on this checklist)
 - Release notes
 - Attach zip or route 
+- Commit zip aqnd release notes to GIT under releases dir
 - Write "Known Issues" List.
 
 
