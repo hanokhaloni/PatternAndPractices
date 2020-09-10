@@ -1,0 +1,11 @@
+Epic
+
+Story
+
+Bug
+
+Task
+
+Sub-task
+
+Document
