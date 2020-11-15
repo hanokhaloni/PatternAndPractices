@@ -1,4 +1,4 @@
-# List of cross cutting concens
+# List of cross cutting concerns
 
 - Business rules
 - Caching
