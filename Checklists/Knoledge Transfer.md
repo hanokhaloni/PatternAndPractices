@@ -3,14 +3,21 @@
 - Members of the team
 - Hierarchy and responsibilities, reporting
 - The customer's / related teams' / vendor's contacts
+- - Telephone number
+- - Email address
+- - A note about core reposibility of the member
+- - A note about how to communicate effectively with him
 
 # Business requirements, trying to get access to:
 
 - Description of business requirements
 - - What is the functionality the software enables?
 - - What are the stakeholders concerns and how the software full-fills these concerns?
+- - - What person, is involved on what feature, and what are his/her primary concerns?
 - User documentation
 - Test cases
+- - Last version STR status (# tests passed, failed and not run)
+- - What are the major (sanity) flows of the system
 
 # Source code:
 
@@ -48,8 +55,20 @@ It is possible to carry out an experiment: ask the new team to create a "pattern
 
 # Information systems (very important):
 
-- User requests handling system
-- Bug tracking system
+- User requests handling system (or SRS and manual flow)
+- Bug tracking system (JIRA, TFS, or GITLAB)
+- Exmail & messages
+- - Important emails and summaries
+- - Meeting notes (keep in mind to have the latest one updated!)
+- UI/UX design files (axure, jpeg, pngs, invision)
+- File directories (shared folders)
+- - project documentation
+- - latest updated work versions (hope you are using git to handle them!)
+- - internal project progress reports
+- Inventory list
+- - Any software delivered to the customer (versions, tools)
+- - Any software supplied from the customer (keys, IDE's, tools)
+- - Any hardware supplied from the customer (keys, IDE's, tools)
 
 # Knowledge base system / information portal
 
@@ -81,6 +100,11 @@ It is possible to carry out an experiment: ask the new team to create a "pattern
 
 - Work plan
 - Roadmap
+- - Version
+- - What version is provided when?
+- - What are the major features / implementations / tasks / bugfies at each version
+- - Milestones - how do these versions affect the client?
+- - Payments - what did we get paid for, what are we going to get payed for nex? what about the next versions?
 - Objectives definition in technical terms
 - Objectives definition in terms of product
 
