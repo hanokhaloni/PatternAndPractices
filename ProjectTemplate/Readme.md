@@ -2,6 +2,14 @@
 
 \<One Paragraph of project description goes here. What are this project's main use cases? This should be not longer than 150 words.\>
 
+## Use cases
+
+A couple of use cases that tell what the product does. Try to add main use cases here.
+
+## Glossary and terms
+
+List of terms and definitions that depict the problem domain.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
