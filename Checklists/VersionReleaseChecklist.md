@@ -45,12 +45,13 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 - Consistency check:  SRS, User Manual, System Tests, Staged Delivery Plan, and Software must all match!
 
 ## Release activity
-- Create SVN/GIT *TAG* - so that you freeze final list of files to be distributed.
+- Build in CI (gitlab / jenkins)
+- Verify all test/regression test are green- Review process  (JIRA/kanban/trello) and mark all done tasks as done (or closed)
+- Create release notes
+- Create GIT *TAG* - so that you freeze final list of files to be distributed.
 - Synchronize date/time stamp on all release files
-- Prepare a zip file with the content (and put it somehere?)
+- Prepare a zip file with the content (and put it in SYSNGS or in git repo)
 - frontpage.md - what version was released when.
-- Build in jenkins
-  - Verify all  test/regression test are green
 - Schedule Acceptance Test date with customer (and instructor)
 
 ## Release summary
