@@ -26,6 +26,7 @@
 - Getting all configuration scripts and requirements for developers' workstations
 - If possible, creating automated scripts of environment deployment or creating system images – to save precious time for the developers.
 - general overview of components and their dependencies
+- What environemts exist? How to interact with PROD environments? What tools, URLS, credentials are provided for each component?
 
 # Technical documentation:
 
