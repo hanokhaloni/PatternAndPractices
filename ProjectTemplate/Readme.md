@@ -42,11 +42,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software and how to install them.
+Fill the following table :
 
-```cmd
-Give examples
-```
+|| type || Name || Version || URL ||
+| Operating system | ubuntu | 04.22 | https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso |
+| Database | mssql | 2014 server edition | https://www.microsoft.com/en-us/download/details.aspx?id=42299 | 
+
+
+Link installers to a directory (local FSERVER or atrifactory)
 
 ### Installing
 
