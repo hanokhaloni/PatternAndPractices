@@ -47,11 +47,12 @@ Each version has a SemVer notation "MAJOR.MINOR.PATCH" where:
 ## Release activity
 - Build in CI (gitlab / jenkins)
 - Verify all test/regression test are green- Review process  (JIRA/kanban/trello) and mark all done tasks as done (or closed)
-- Create release notes
+- Close the jira version by release it - Create release notes
 - Create GIT *TAG* - so that you freeze final list of files to be distributed.
 - Synchronize date/time stamp on all release files
-- Prepare a zip file with the content (and put it in SYSNGS or in git repo)
-- frontpage.md - what version was released when.
+- Verify all readme.md and install guide (install.txt) are up to date.
+- Prepare a zip file with the content (and put it in ftp or a file server) name the file <iso date> realease <version>.zip (for example 20220711_release_1.1.8.zip)
+- Update frontpage.md - what version was released when.
 - Schedule Acceptance Test date with customer (and instructor)
 
 ## Release summary
