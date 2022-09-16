@@ -32,7 +32,7 @@
 
 - System architecture
 - Sub-system architecture
-- Databases structure
+- Databases structure (Tables, relataion between them and entities list)
 - Architecture in terms of technical primitives
 - Architecture in terms of business tasks, use cases
 - Team's technical debts
@@ -51,8 +51,9 @@ It is possible to carry out an experiment: ask the new team to create a "pattern
 - Build versions
 - Deployment strategies
 - - The purpose of machine depended configuration settings
-- - how the install the software?
-- - how to roll the software back?
+- - How the install the software? What's the release process?
+- - How to roll the software back to an older version?
+- - How to handle data migration? (Can you update the software without deleting the data?)
 
 # Information systems (very important):
 
