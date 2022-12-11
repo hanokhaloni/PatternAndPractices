@@ -1,0 +1,33 @@
+Software Design Description
+
+# Introduction
+This document describes the design of the XYZ software system. The system is a web-based application that allows users to manage their finances, track their spending, and create budgets.
+
+# Use cases
+The main user usecases in XYZ system
+
+# Architecture
+The XYZ system consists of the following components:
+
+A front-end web application built using React.js
+A back-end API built using Flask
+A database built using MySQL
+The front-end and back-end components are connected via a RESTful API, which allows the front-end to send and receive data from the back-end and the database.
+
+# Components
+## Front-end
+The front-end component is a single-page web application that is served to users' web browsers. It uses React.js to create a dynamic and interactive user interface, and makes API calls to the back-end to retrieve and update data.
+
+## Back-end
+The back-end component is a RESTful API that exposes a set of endpoints for the front-end to interact with. It is built using Flask and communicates with the database to store and retrieve data.
+
+## Database
+The database component is a MySQL database that stores the user and financial data for the XYZ system. It is accessed by the back-end API to retrieve and update data.
+
+## Design patterns and principles
+The XYZ system follows the microservices architecture pattern, with the front-end, back-end, and database components being developed and deployed independently. This allows for greater flexibility and scalability, and makes it easier to update and maintain the system.
+
+The system also follows the SOLID design principles, which are a set of principles that aim to make software designs more understandable, maintainable, and flexible.
+
+# Conclusion
+This document provides a detailed description of the design of the XYZ software system. The system is built using modern web technologies and follows a microservices architecture and the SOLID design principles.
