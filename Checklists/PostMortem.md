@@ -8,6 +8,7 @@
 ## Detection 
 
 - Who detected how and what (and when)? When did we detect this issue?
+- Why didn't we detect the issue earlier?
 
 ## Business impact
 
@@ -22,6 +23,7 @@
 ## Action items
 
 - Who need to do what by when? e.g. add tests, add monitoring, ignore it, document how to handle, ask for a refactor, etc...
+- When we propose a solution - is it the best solution? what other solutions did we consider? Are we sure that this solution solves the problem?
 
 # Documentation Checklist
 -  Keep it written
