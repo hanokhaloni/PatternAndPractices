@@ -2,19 +2,16 @@
 
 ## PDR meeting
 
-* Project Overview Project Overview (10 min)
-* Design Drivers & Alternatives Considered (10 min)
-* General architecture (10 min)
-  * System Architectural Design
-  * Software Architectural Design
-* Main flows (15 min)
-* Tech stack (10 min)
-* Important Dates (5 min)
-* Deliverables (10 min) \*\* What version is delivered when? \*\* What does each version contain?
-* Assumptions (5 min)
-* Resource Sizing Estimates (5 min)
-* Risks & Mitigation Strategies (5 min)
-* Issues (5 min)
+* Project Overview Project Overview
+* Design Drivers & Alternatives Considered
+* System Architectural Design
+* Software Architectural Design Software Architectural Design
+* Requirements Traceability
+* Data Overview
+* Enterprise Architecture Compliance
+* Resource Sizing Estimates
+* Risks & Mitigation Strategies
+* Issues
 
 ## OPTIONAL
 
