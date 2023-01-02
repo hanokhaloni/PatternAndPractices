@@ -20,9 +20,23 @@
 * [👨💻 Code](code/README.md)
   * [CleanCodeMarkers](code/cleancodemarkers.md)
   * [UncleBobsScribesOath](code/unclebobsscribesoath.md)
-* [Page 1](page-1.md)
+  * [REST](code/rest.md)
+* [📣 Meetings](meetings/README.md)
+  * [Internal kickoff](meetings/internal-kickoff.md)
+  * [External kickoff](meetings/external-kickoff.md)
+  * [PDR](meetings/pdr.md)
+  * [CDR](meetings/cdr.md)
+  * [Client Status](meetings/client-status.md)
 
 ## Unsorted
 
 * [Application Lifecycle Management](unsorted/application-lifecycle-management.md)
+* [👾 1x engineer](unsorted/1x-engineer.md)
 * [Routines](unsorted/routines.md)
+
+***
+
+* [generalNotes](generalnotes.md)
+* [Java](java.md)
+* [1 hour](1-hour.md)
+* [Project health](project-health.md)
