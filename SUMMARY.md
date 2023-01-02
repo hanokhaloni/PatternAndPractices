@@ -10,6 +10,8 @@
   * [📦 Release](checklists/release.md)
   * [🧠 Knowledge Transfer](checklists/knowledge-transfer.md)
   * [🪵 Logs](checklists/logs.md)
+  * [❗ Errors](checklists/errors.md)
+  * [🍸 Integration](checklists/integration.md)
   * [📈 Monitoring](checklists/monitoring.md)
 * [📚 Documents](documents/README.md)
   * [Architectural decision record](documents/architectural-decision-record.md)

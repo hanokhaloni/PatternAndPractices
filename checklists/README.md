@@ -14,4 +14,8 @@
 
 [logs.md](logs.md "mention")
 
+[errors.md](errors.md "mention")
+
+[integration.md](integration.md "mention")
+
 [monitoring.md](monitoring.md "mention")
