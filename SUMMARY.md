@@ -17,6 +17,10 @@
   * [Architectural decision record](documents/architectural-decision-record.md)
   * [List of system design points](documents/list-of-system-design-points.md)
   * [List of cross cutting concerns](documents/list-of-cross-cutting-concerns.md)
+* [👨💻 Code](code/README.md)
+  * [CleanCodeMarkers](code/cleancodemarkers.md)
+  * [UncleBobsScribesOath](code/unclebobsscribesoath.md)
+* [Page 1](page-1.md)
 
 ## Unsorted
 
