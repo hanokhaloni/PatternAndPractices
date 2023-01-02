@@ -17,6 +17,10 @@
   * [Architectural decision record](documents/architectural-decision-record.md)
   * [List of system design points](documents/list-of-system-design-points.md)
   * [List of cross cutting concerns](documents/list-of-cross-cutting-concerns.md)
+  * [SOW](documents/sow.md)
+  * [SRS](documents/srs.md)
+  * [SDD\_mil](documents/sdd\_mil.md)
+  * [SDD\_c4](documents/sdd\_c4.md)
 * [👨💻 Code](code/README.md)
   * [CleanCodeMarkers](code/cleancodemarkers.md)
   * [UncleBobsScribesOath](code/unclebobsscribesoath.md)
@@ -30,8 +34,8 @@
 
 ## Unsorted
 
-* [Application Lifecycle Management](unsorted/application-lifecycle-management.md)
 * [👾 1x engineer](unsorted/1x-engineer.md)
+* [Application Lifecycle Management](unsorted/application-lifecycle-management.md)
 * [Routines](unsorted/routines.md)
 
 ***
