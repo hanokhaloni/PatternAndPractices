@@ -31,6 +31,9 @@
   * [PDR](meetings/pdr.md)
   * [CDR](meetings/cdr.md)
   * [Client Status](meetings/client-status.md)
+* [🛠 Developer tools](developer-tools.md)
+* [🤝 OnBoarding](onboarding.md)
+* [💪 Empowerment](empowerment.md)
 
 ## Unsorted
 
