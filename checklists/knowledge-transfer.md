@@ -11,22 +11,16 @@ description: >-
 * Members of the team
 * Hierarchy and responsibilities, reporting
 * The customer's / related teams' / vendor's contacts
-*
-  * Telephone number
-*
-  * Email address
-*
-  * A note about core reposibility of the member
-*
-  * A note about how to communicate effectively with him
+* Telephone number
+* Email address
+* A note about core reposibility of the member
+* A note about how to communicate effectively with him
 
 ## Business requirements, trying to get access to:
 
 * Description of business requirements
-*
-  * What is the functionality the software enables?
-*
-  * What are the stakeholders concerns and how the software full-fills these concerns?
+* What is the functionality the software enables?
+* What are the stakeholders concerns and how the software full-fills these concerns?
 *
   *
     * What person, is involved on what feature, and what are his/her primary concerns?
