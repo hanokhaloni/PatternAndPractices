@@ -33,7 +33,7 @@
   * [Client Status](meetings/client-status.md)
 * [🛠 Developer tools](developer-tools/README.md)
   * [😇 Cheat sheets](developer-tools/cheat-sheets.md)
-  * [🪟 WIndows](developer-tools/windows.md)
+  * [🪟 WIndows](developer-tools/tools.md)
   * [🐧 Linux](developer-tools/linux.md)
   * [🕸 Websites](developer-tools/websites.md)
   * [🐳 Docker & k8s containers](developer-tools/docker-and-k8s-containers.md)
