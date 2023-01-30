@@ -9,6 +9,7 @@
   * [⚡ Git](checklists/git.md)
   * [📦 Release](checklists/release.md)
   * [🧠 Knowledge Transfer](checklists/knowledge-transfer.md)
+  * [Porting questioneer](checklists/porting-questioneer.md)
   * [🪵 Logs](checklists/logs.md)
   * [❗ Errors](checklists/errors.md)
   * [🍸 Integration](checklists/integration.md)
