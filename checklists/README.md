@@ -19,3 +19,12 @@
 [integration.md](integration.md "mention")
 
 [monitoring.md](monitoring.md "mention")
+
+[porting-questioneer.md](porting-questioneer.md "mention")
+
+[post-mortem-guide.md](post-mortem-guide.md "mention")
+
+[email-or-letter-cheat-sheet.md](email-or-letter-cheat-sheet.md "mention")
+
+
+
