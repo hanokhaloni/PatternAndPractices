@@ -41,7 +41,6 @@
   * [🕸 Websites](developer-tools/websites.md)
   * [🐳 Docker & k8s containers](developer-tools/docker-and-k8s-containers.md)
 * [🤝 OnBoarding](onboarding.md)
-* [Page 1](page-1.md)
 * [💪 Empowerment](empowerment.md)
 
 ## Unsorted
