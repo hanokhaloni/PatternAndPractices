@@ -1,23 +1,10 @@
-# NGPractices
+# 👋 Hello there!
 
-Best practices and notes
+See [checklists](checklists/ "mention")for all checklist used&#x20;
 
-TODO:
+See [documents](documents/ "mention") for how documentation should be made
 
-- [ ] Add a directory for peopleware
-- [ ] Add risk management stuff
-- [x] Try to order stuff, so it makes sense in a story
-- [x] Add a software project outline
-- [ ] Add EE template
-- [ ] Add slides templates
-- [x] Finish project termplate, based on a simple HTML stuff!
-- [ ] Fix glossary
-- [ ] Add links to ext references
-- [ ] CI/CD/CD checklist
-- [ ] List of scanning tools (sorted by language?)
-- [ ] Testing checkilists
-- [ ] Process missing - STR
-- [ ] Process missing - PMR
-- [ ] Meeting missing - project postmortem?
-- [ ] Sprint missing examples for retrospectives
-- [ ] Sprint missing checklist for demo (maybe put it the agile scrum checklist?)
+See [code](code/ "mention")for code related notes (clean code checklist, oath etc...)
+
+See [meetings](meetings/ "mention") for all meeting related materials
+
