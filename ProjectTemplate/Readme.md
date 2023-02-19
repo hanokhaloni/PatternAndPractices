@@ -5,20 +5,20 @@
 ## Screenshots
 \< Add about 3-4 descriptive screenshots here.\>
 
-### Use cases
+## Use cases
 
 \<A couple of use cases that tell what the product does. Try to add main use cases here.>
 
-### Glossary and terms
+## Glossary and terms
 
 List of terms and definitions that depict the problem domain.
 
-### Billing info
+## Billing info
 
 * Isufit customer \<name and number\>
 * Isufit project \<name and number\>
 
-### Links
+## Links
 
 * [CI deployed Web site](https://aimeos.org/integrations/typo3-shop-extension/)
 * [TEST ENV](https://aimeos.org/integrations/typo3-shop-extension/)
@@ -28,11 +28,11 @@ List of terms and definitions that depict the problem domain.
 * [Source code](https://github.com/aimeos/aimeos-typo3)
 * [CI link](http://jenkins/)
 
-## Developer : Getting Started 
+# Developer : Getting Started 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Directory structure
+## Directory structure
 
 ```cmd
 .
@@ -49,7 +49,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 
-### Prerequisites
+## Prerequisites
 
 \<What things you need to install on your development machine, the software and how to install them.
 Fill the following table :>
@@ -62,7 +62,17 @@ Fill the following table :>
 
 Link installers to a directory (local FSERVER or atrifactory)
 
-### Installing
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [node](https://nodejs.org/en/) used to run node and npm
+* [gradle](https://gradle.org/) build tool
+* [msbuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2019)  a platform for building applications
+
+
+## Installing developer environment
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -103,70 +113,30 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
+# Deployment
 
 \<Add additional notes about how to deploy this on a live system>
+\<Add a list of action items to serve as a deployment checklist>
 
-### Recommended configuration
+1. Create release notes from JIRA, by releasing a version (in SEMVER format)
+2. Create TAG in GITLAB - include release notres form 1
+3. Build (preferrebly using CI task)
+4. Test on local machine (sanity)
+5. Test on test environment (sanity, retest, or STR)
+6. Copy zip files of release to client dir on fserver
+7. Send a summary + VDD format
+8. With client approval, Install on PreProd and Prod Environments
+
+## Recommended configuration
 
 \<Define what are the recommended configurations here.>
 \<Add reference to the recommended configuration files.>
 
-### Custom configurations
+## Custom configurations
 
 \<Define what are the recommended configurations here.>
 \<Add reference to the recommended configuration files.>
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [node](https://nodejs.org/en/) used to run node and npm
-* [gradle](https://gradle.org/) build tool
-* [msbuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2019)  a platform for building applications
-
-## Documents
-### Process documentation
-
-* SRS </Add Software requirements link to docs dir or explain why it does not exist/>
-* SDD/HLD </Add Doftware disighn document or equivalent - link to docs dir or explain why it does not exist/>
-* STD </Add link to docs dir or explain why it does not exist/>
-* STR </Add link to docs dir or explain why it does not exist/>
-* ADR </Add link to docs/adr dir or explain why it does not exist/>
-
-</Also add links to studio outlines, or axure site.>
-
-### Important documents
-
-* \<Add a link to EE1 or EE2\>
-* \<Add a link to initial evaluation\>
-* \<Add a link to kickoff meeting\>
-* \<Add a lik to KT, lists or even major breakthrous or even Retrospective notes\>
-* \<Add reference to local slides - postmorted of the project\>
-
-### Versions
-
-* </List of tags and release notes/>
-
-## Management
-
-### Contacts
-
-* \<Add NGSOFT team members here. Don't forget the role.\>
-* **Israel Israeli**, Team Lead
-* **Israela Israeli**, Project manager
-* \<Add customer members here, don't forget to add phone number, email and role.\>
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Important info
+##
 
 ### DEVENV
 
@@ -181,6 +151,41 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * \<Server names, logins, ips, stuff needed to deploy and use PROD environment\>
 * \<AWS credentials, private keys, super duper secret stuff, cia nra\>
+
+
+# Documents
+## Process documentation
+
+* SRS </Add Software requirements link to docs dir or explain why it does not exist/>
+* SDD/HLD </Add Doftware disighn document or equivalent - link to docs dir or explain why it does not exist/>
+* STD </Add link to docs dir or explain why it does not exist/>
+* STR </Add link to docs dir or explain why it does not exist/>
+* ADR </Add link to docs/adr dir or explain why it does not exist/>
+
+</Also add links to studio outlines, or axure site.>
+
+## Important documents
+
+* \<Add a link to EE1 or EE2\>
+* \<Add a link to initial evaluation\>
+* \<Add a link to kickoff meeting\>
+* \<Add a lik to KT, lists or even major breakthrous or even Retrospective notes\>
+* \<Add reference to local slides - postmorted of the project\>
+
+# Versions
+
+* </List of tags and release notes/>
+
+# Management
+
+## Contacts
+
+* \<Add NGSOFT team members here. Don't forget the role.\>
+* **Israel Israeli**, Team Lead
+* **Israela Israeli**, Project manager
+* \<Add customer members here, don't forget to add phone number, email and role.\>
+
+# Important info
 
 ## Encountered problems
 
