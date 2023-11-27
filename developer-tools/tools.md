@@ -70,5 +70,7 @@ notepad plugin to have
 
 [keepass](https://keepass.info/) Password management&#x20;
 
+[clumsy](https://github.com/jagt/clumsy) clumsy makes your network condition on Windows significantly worse, but in a managed and interactive manner.
+
 
 
